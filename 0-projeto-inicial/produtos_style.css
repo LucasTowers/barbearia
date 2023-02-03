@@ -70,3 +70,14 @@ nav li :hover {
     color: #C78C19;
     text-decoration: underline;
 }
+
+footer {
+    text-align: center;
+    padding: 40px 0px;
+    background: url("bg.jpg");
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+}
