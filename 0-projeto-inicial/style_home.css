@@ -10,6 +10,30 @@ header {
 
 }
 
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+ 
+nav li :hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
 .produtos li {
     display: inline-block;
     text-align: center;
@@ -36,39 +60,6 @@ header {
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
-}
-.preco_produtos {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.descricao_produtos {
-    font-size: 18px;
-}
-
-nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
-}
-
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a {
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
- 
-nav li :hover {
-    color: #C78C19;
-    text-decoration: underline;
 }
 
 footer {
